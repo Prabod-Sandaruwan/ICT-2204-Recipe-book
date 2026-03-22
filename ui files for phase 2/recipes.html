@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand d-flex " href="./index.html">
+                <img src="./assets/logo.png" alt="Logo" width="30" height="30"
+                    class="d-inline-block ms-4 align-text-top">
+                <p class="mb-0 fw-bold">PremiumRecipes</p>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bold" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-bold" href="./categories.html">Categories</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-bold" href="./recipes.html">Recipes</a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link fw-bold" href="./contact.html">Contact Us</a>
+                    </li>
+                    <li id="profile_desk" class="nav-item ms-4">
+                        <a class="nav-link fw-bold" href="./profile.html">Profile</a>
+                    </li>
+                </ul>
+                <a id="profile_icon" href="./profile.html" class="ms-auto me-4">
+                    <i class="fa-solid fa-circle-user"></i>
+                </a>
+            </div>
+        </div>
+    </nav>
+    <div class="search_area">
+        <form action="#" class="search_form">
+            <input type="text" placeholder="Search for recipes..." class="search_input">
+            <button class="search_submit"><i class="fa-brands fa-sistrix"></i></button>
+        </form>
+    </div>
+    <div class="main_recipe_area">
+        <div class="recipe_head">
+                <img class="recipe_page_img" src="./assets/recipe_page.jpg" alt="Recipe Image">
+            <p class="recipe_tag">Seafood</p>
+            <p class="recipe_name">Jamaican Pepper Shrimp</p>
+        </div>
+        <div class="recipe_bottom">
+            <div class="ingrediant">
+                <table>
+                    <tr>
+                        <td>Shrimp</td>
+                        <td>1 lb</td>
+                    </tr>
+                    <tr>
+                        <td>Scotch Bonnet</td>
+                        <td>2 chopped</td>
+                    </tr>
+                    <tr>
+                        <td>All-purpose Seasoning</td>
+                        <td>1 tablespoon</td>
+                    </tr>
+                    <tr>
+                        <td>Ground Annatto</td>
+                        <td>2 tsp</td>
+                    </tr>
+                    <tr>
+                        <td>Allspice</td>
+                        <td>2 tsp</td>
+                    </tr>
+                    <tr>
+                        <td>Shrimp Stock</td>
+                        <td>3/4 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Onion</td>
+                        <td>1/4 cup</td>
+                    </tr>
+                    <tr>
+                        <td>Garlic</td>
+                        <td>2 cloves minced</td>
+                    </tr>
+                    <tr>
+                        <td>White Vinegar</td>
+                        <td>2 tablespoons</td>
+                    </tr>
+                    <tr>
+                        <td>Thyme</td>
+                        <td>3 sprigs</td>
+                    </tr>
+                    <tr>
+                        <td>Salt</td>
+                        <td>To taste
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="step">
+                <p class="instruction_tit">Instructions</p>
+                <p class="instruction_info">In a medium bowl, combine shrimp with minced Scotch Bonnet peppers,
+                    all-purpose seasoning, ground annatto, and grounf allspice. Toss well to coat evenly and let
+                    marinate for 10 minutes.
+                    Heat a large pan over medium heat. Add the shrimp stock and bring to a gentle simmer. Stir in the
+                    diced onion and garlic, cooking until softened and fragrant, about 2 minutes.
+                    Add the seasoned shrimp and thyme sprigs, spreading the shrimp in the pan. Cover and cook for about
+                    5–7 minutes, stirring occasionally, until the shrimp turn bright orange and are cooked through.
+                    Add the white vinegar, stir, and cook for another minute. Taste; add salt to taste. Using a slotted
+                    spoon, transfer the shrimp to a plate. Serve hot with some cooking liquid drizzled on top.</p>
+                <iframe style="width:100%; height:400px;" src="https://www.youtube.com/embed/VIDEO_ID" allowfullscreen>
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div>
+            <div class="footer_logo">
+                <img src="./assets/logo.png" alt="footer logo">
+                <p>PremiumRecipes</p>
+            </div>
+            <div class="footer_links">
+                <p>Quick Links</p>
+                <a href="./index.html">Home</a>
+                <a href="./categories.html">Categories</a>
+                <a href="./recipes.html">Recipes</a>
+                <a href="./contact.html">Contact Us</a>
+            </div>
+            <div class="footer_conect">
+                <p class="footer_conect_text">Connect</p>
+                <div class="footer_conect_links">
+                    <a href="#"><i class="fa-brands fa-github"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <p class="copyright">© 2023 PremiumRecipes. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
