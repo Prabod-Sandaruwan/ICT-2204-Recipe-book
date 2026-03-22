@@ -144,7 +144,7 @@ function e($s) { return htmlspecialchars($s, ENT_QUOTES, 'UTF-8'); }
     <footer>
         <div>
             <div class="footer_logo">
-                <img src="./assets/logo.png" alt="footer logo">
+                <img src="./images/logo.png" alt="footer logo">
                 <p>PremiumRecipes</p>
             </div>
             <div class="footer_links">
